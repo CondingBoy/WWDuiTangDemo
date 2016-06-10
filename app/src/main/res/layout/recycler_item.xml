@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:background="@android:color/white" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    android:layout_margin="3dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pic9"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="机制的立夏在学习蹭WiFi"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/tv_starNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:layout_margin="5dp"
+            android:text="422"
+            android:drawableLeft="@mipmap/ic_star"
+            android:drawablePadding="5dp"/>
+        <ImageView
+           style="@style/horizontaldevider" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/thumb4"
+                android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:layout_alignTop="@id/iv_icon"
+                    android:layout_toRightOf="@id/iv_icon"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="千年老妖"/>
+                <TextView
+                    android:id="@+id/tv_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:layout_alignLeft="@id/tv_name"
+                    android:layout_below="@id/tv_name"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="收集到 插画那么"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</FrameLayout>

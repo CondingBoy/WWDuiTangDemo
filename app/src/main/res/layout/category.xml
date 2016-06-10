@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:background="@android:color/white">
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_column"
+            android:drawableLeft="@mipmap/category_icon_shopping"
+            android:drawablePadding="10dp"
+            android:text="良品购"
+            android:textSize="18sp" />
+
+        <ImageView style="@style/verticaldevider" />
+
+        <TextView
+            style="@style/table_column"
+            android:drawableLeft="@mipmap/category_icon_sale"
+            android:drawablePadding="10dp"
+            android:text="特实惠"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <ImageView style="@style/horizontaldevider" />
+    <TableRow>
+        <LinearLayout
+            style="@style/table_column"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/table_text"
+                android:text="美食菜谱"
+                android:drawableLeft="@mipmap/fragment_category_dot_1"
+               />
+            <TextView
+                style="@style/table_text"
+                android:text="家居生活"
+                android:drawableLeft="@mipmap/fragment_category_dot_1"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="影音书"
+                android:drawableLeft="@mipmap/fragment_category_dot_1"
+                />
+        </LinearLayout>
+        <ImageView style="@style/verticaldevider" />
+        <LinearLayout
+            style="@style/table_column"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/table_text"
+                android:text="壁纸"
+                android:drawableLeft="@mipmap/fragment_category_dot_2"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="头像"
+                android:drawableLeft="@mipmap/fragment_category_dot_2"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="表情"
+                android:drawableLeft="@mipmap/fragment_category_dot_2"
+                />
+        </LinearLayout>
+    </TableRow>
+    <ImageView style="@style/horizontaldevider" />
+    <TableRow>
+        <LinearLayout
+            style="@style/table_column"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/table_text"
+                android:text="时尚搭配"
+                android:drawableLeft="@mipmap/fragment_category_dot_3"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="美容美妆"
+                android:drawableLeft="@mipmap/fragment_category_dot_3"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="美发造型"
+                android:drawableLeft="@mipmap/fragment_category_dot_3"
+                />
+        </LinearLayout>
+        <ImageView style="@style/verticaldevider" />
+        <LinearLayout
+            style="@style/table_column"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/table_text"
+                android:text="文字句子"
+                android:drawableLeft="@mipmap/fragment_category_dot_4"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="手工DIY"
+                android:drawableLeft="@mipmap/fragment_category_dot_4"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="插画绘画"
+                android:drawableLeft="@mipmap/fragment_category_dot_4"
+                />
+        </LinearLayout>
+    </TableRow>
+    <ImageView style="@style/horizontaldevider" />
+    <TableRow>
+        <LinearLayout
+            style="@style/table_column"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/table_text"
+                android:text="婚纱婚礼"
+                android:drawableLeft="@mipmap/fragment_category_dot_5"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="旅行"
+                android:drawableLeft="@mipmap/fragment_category_dot_5"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="摄影"
+                android:drawableLeft="@mipmap/fragment_category_dot_5"
+                />
+        </LinearLayout>
+        <ImageView style="@style/verticaldevider" />
+        <LinearLayout
+            style="@style/table_column"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/table_text"
+                android:text="人物明星"
+                android:drawableLeft="@mipmap/fragment_category_dot_2"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="动画漫画"
+                android:drawableLeft="@mipmap/fragment_category_dot_2"
+                />
+            <TextView
+                style="@style/table_text"
+                android:text="萌物萌娃"
+                android:drawableLeft="@mipmap/fragment_category_dot_2"
+                />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

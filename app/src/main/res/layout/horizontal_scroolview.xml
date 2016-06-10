@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <Button
+            style="@style/discovery_horizontal_button"
+            android:text="权利的游戏"
+            android:drawableTop="@mipmap/gallery0"
+            />
+        <Button
+            style="@style/discovery_horizontal_button"
+            android:text="风吹的风景"
+            android:drawableTop="@mipmap/gallery1"
+            />
+        <Button
+            style="@style/discovery_horizontal_button"
+            android:text="插画背景"
+            android:drawableTop="@mipmap/gallery2"
+            />
+        <Button
+            style="@style/discovery_horizontal_button"
+            android:text="美食君"
+            android:drawableTop="@mipmap/gallery3"
+            />
+        <Button
+            style="@style/discovery_horizontal_button"
+            android:text="吃"
+            android:drawableTop="@mipmap/gallery4"
+            />
+        <Button
+            style="@style/discovery_horizontal_button"
+            android:text="你好四月"
+            android:drawableTop="@mipmap/gallery5"
+            />
+    </LinearLayout>
+</HorizontalScrollView>

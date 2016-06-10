@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@mipmap/action_bar_icon_search"
+        app:showAsAction="always" android:id="@+id/search"
+        android:title="搜索"/>
+    <item android:id="@+id/add" android:title="添加" android:icon="@mipmap/action_bar_icon_add"
+        app:showAsAction="always" />
+    <item android:id="@+id/setting" android:title="设置" app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helloworld.example.administrator.wwduitangdemo.view.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroller">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/guitar_background">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_useIcon"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:src="@mipmap/user_default_face" />
+
+                <TextView
+                    android:id="@+id/tv_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_useIcon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="用户"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_user"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/ic_star_white"
+                    android:drawablePadding="10dp"
+                    android:text="0"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_star"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="关注 0"
+                        android:textColor="@android:color/white" />
+
+                    <ImageView
+                        android:layout_width="2dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="粉丝 0"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="专辑 0"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@mipmap/icon_arrow"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:text="查看所有"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/image_bt1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:text="创建新专辑"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <ImageView style="@style/horizontaldevider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Club 0"
+                android:textColor="#000" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/image_bt2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:text="发现Club"
+                android:textColor="#000"
+                android:textSize="15sp"
+
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/text"
+            android:clickable="true"
+            android:drawableRight="@mipmap/icon_arrow"
+            android:padding="10dp"
+            android:text="所有的图片 0"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <ImageView style="@style/horizontaldevider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/text"
+            android:clickable="true"
+            android:drawableRight="@mipmap/icon_arrow"
+            android:padding="10dp"
+            android:text="喜欢的专辑 0"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</helloworld.example.administrator.wwduitangdemo.view.CustomScrollView>

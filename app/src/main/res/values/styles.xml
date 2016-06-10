@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/Overflow</item>
+        <item name="android:windowBackground" >@color/gray</item>
+    </style>
+    <style name="MyStyle" parent="AppTheme"/>
+    <style name="PersonActivityStyle" parent="AppTheme">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/Overflow</item>
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="MyActionBarStyle" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/actionbarBg</item>
+    </style>
+    <!--更改overflow的图片-->
+    <style name="Overflow" parent="Base.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@mipmap/action_bar_icon_more</item>
+    </style>
+    <!--messagefragment的button的样式-->
+    <style name="button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:background">@drawable/button_select</item>
+    </style>
+    <!--discoveryFragment的button样式-->
+    <style name="discovery_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!--discoveryFragment的horizontalview button样式-->
+    <style name="discovery_horizontal_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!--水平分隔线-->
+    <style name="horizontaldevider">
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">1dp</item>
+       <item name="android:background">@color/gray</item>
+    </style>
+    <!--垂直分隔线-->
+    <style name="verticaldevider">
+       <item name="android:layout_width">1dp</item>
+       <item name="android:layout_height">match_parent</item>
+       <item name="android:background">@color/gray</item>
+    </style>
+    <!--表格列的样式-->
+    <style name="table_column">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <!--表格列的字体样式-->
+    <style name="table_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
